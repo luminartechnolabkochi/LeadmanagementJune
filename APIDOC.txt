@@ -23,8 +23,50 @@ fields:id,source,name,contact,course,status,remarks
     body:Nill
 
 
+3)API for fetching a specific Lead
+
+    url:locahost:8000/leads/{id}/
+
+    method:get
+
+    body:Nill
+
+
+4)API for deleting a specific Lead
+
+    url:locahost:8000/leads/{id}/
+
+    method:delete
+
+    body:Nill
+
+
+
+5)API for updating a specific Lead
+
+    url:locahost:8000/leads/{id}/
+
+    method:put
+
+    body:{source:,name:,contact:,course:,status:,remarks:}
+
+
+
+6)API for lead summary
+
+    url:localhost:8000/leads/summary/
+
+    method:GET
+
+    body:Nill
+    
 
 
 
 
+schema:Property
+fields:id,place,price,category,bedroom_count,squarefootage
 
+API for listing all properties
+
+API for adding a new property
